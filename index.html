@@ -4,63 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Global Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <header>
-            <nav>
-                <img src="./img/petslogo.jpg" width="70px" alt="logo">
-                <ul>
-                    <li>About</li>
-                    <li>Store</li>
-                    <li>Contact</li>
+    <header>
+        <div class="container">
+            <nav class="nav-styles">
+                <div class="logo-container">
+                    <img src="./img/petslogo.jpg" width="70px" alt="logo">
+                </div>
+                <ul class="nav-list">
+                    <li class="list-style">About</li>
+                    <li class="list-style">Blog</li>
+                    <li class="list-style">Contact</li>
                 </ul>
             </nav>
-        </header>
-    </div>
-    <div>
-        <main>
-            <div>
+        </div>
+    </header>
+    <div class="first-section">
+        <main class="container hero-section">
+            <div class="main-text">
                 <h1>This Website is Awesome</h1>
                 <p>This website has some subtext that goes here under the main title. it's a smaller font and the color is lower contrast.</p>
                 <button>Sign up</button>
             </div>
+            <div class="hero-img">
+                <img src="./img/dog-heart-cat.jpg" width="100%" alt="picture of pets">
+            </div>
         </main>
     </div>
-    <div>
-        <h2>Some Random Information</h2>
-
-        <div>
-            <div>
-                <img src="" alt="">
-                <p>This is some sub-text under an illustration of image</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>This is some sub-text under an illustration of image</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>This is some sub-text under an illustration of image</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>This is some sub-text under an illustration of image</p>
+    <div class="second-container">
+        <div class="container pet-center">
+            <h2>Some Random Information</h2>
+    
+            <div class="four-boxes">
+                <div class="box">
+                    <img src="./img/pexels-chevanon-photography-1108099.jpg" alt="">
+                    <p>This is some sub-text under an illustration of image</p>
+                </div>
+                <div class="box">
+                    <img src="./img/pexels-ilo-frey-2317904.jpg" alt="">
+                    <p>This is some sub-text under an illustration of image</p>
+                </div>
+                <div class="box">
+                    <img src="./img/pexels-muhannad-alatawi-58997.jpg" alt="">
+                    <p>This is some sub-text under an illustration of image</p>
+                </div>
+                <div class="box">
+                    <img src="./img/pexels-pixabay-33492.jpg" alt="">
+                    <p>This is some sub-text under an illustration of image</p>
+                </div>
             </div>
         </div>
     </div>
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reiciendis delectus assumenda omnis porro necessitatibus possimus dolorum ex accusamus vitae, sit, placeat minus beatae quae aspernatur, culpa enim nihil facilis. Reprehenderit soluta harum placeat, ipsam esse eius laudantium mollitia fugiat explicabo rem praesentium magni facilis atque odio molestias, illo odit possimus quasi qui, quam doloribus voluptatum. Ex dolorum nesciunt adipisci fuga voluptatibus ipsum ut, vitae a! Ab, voluptate repudiandae. Tempore ut praesentium perferendis velit libero! Eaque quo iusto eius animi dolore vel nesciunt praesentium possimus rerum. Officia eveniet doloremque ea dolorum numquam sed odio, aliquid commodi culpa sint optio enim!</p>
+    <div class="testimonial">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reiciendis delectus assumenda omnis porro necessitatibus possimus dolorum ex accusamus vitae, sit, placeat minus beatae quae aspernatur, culpa enim nihil facilis. Reprehenderit soluta harum placeat, ipsam esse eius laudantium mollitia fugiat explicabo rem praesentium magni facilis atque odio molestias. </p>
+            <p class="lorem"> -Lorem Ipsum</p>
+        </div>
     </div>
-    <div>
-        <div>
-            <h2>Call to action! it's time!</h2>
-            <p>Sign up for our product by clicking the button right over there!</p>
-            <button>Sign up.</button>
+    <div class="cta">
+        <div class="container cta-cont">
+            <div class="cta-text">
+                <h2>Call to action! it's time!</h2>
+                <p>Sign up for our product by clicking the button right over there!</p>
+            </div>
+            <button>Sign up</button>
         </div>
     </div>
     <footer>
-        <p>Copyright &copy; The Odin Project 2024.</p>
+        <p>Copyright &copy; The Odin Project 2024</p>
     </footer>
 </body>
 </html>
